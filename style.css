@@ -1,5 +1,47 @@
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    color: 
+body {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: Arial;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: lime;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+}
+
+.navbar a:hover {
+    background-color: limegreen;
+}
+
+.navbar li {
+    float: left;
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paragraphs {
+  border: solid 3px;
+  border-color: red;
+  border-radius: 10px;
+  color: white;
+  font-family: cursive;
+  background-color: black;
+  text-align: center;
 }
