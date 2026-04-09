@@ -9,6 +9,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
+    width: 575px;
 }
 
 .navbar a {
@@ -26,7 +27,6 @@ body {
 
 .navbar li {
     float: left;
-    
 }
 
 h1 {
@@ -36,12 +36,88 @@ h1 {
     margin: 10px;
 }
 
-.paragraphs {
+.chessimage {
+    border: solid 3px;
+    border-color: red;
+    border-radius: 10px;
+    width: 666.9px;
+    height: 444.6px;
+    float: right;
+    margin-right: 100px;
+    
+}
+.titles {
   border: solid 3px;
   border-color: red;
   border-radius: 10px;
   color: white;
   font-family: cursive;
   background-color: black;
-  text-align: center;
+  text-align: left;
+  display: inline;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.paragraph1 {
+  border: solid 3px;
+  border-color: red;
+  border-radius: 10px;
+  color: white;
+  font-family: cursive;
+  background-color: black;
+  width: 1000px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.paragraph2 {
+  border: solid 3px;
+  border-color: lime;
+  border-radius: 10px;
+  color: white;
+  font-family: cursive;
+  background-color: black;
+  width: 1000px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.paragraph3 {
+  border: solid 3px;
+  border-color: cyan;
+  border-radius: 10px;
+  color: white;
+  font-family: cursive;
+  background-color: black;
+  display: inline-block;
+  margin-left: 35px;
+  width: 1368px;
+  margin-top: 20px;
+}
+
+.chesslink {
+    color: cyan;
+}
+
+.chesscom {
+    border: solid 3px;
+    border-color: cyan;
+    border-radius: 5px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.ol1 {
+    color: gold;
+}
+
+.ol2 {
+    color: silver;
+}
+
+.ol3 {
+    color: #CD7F32;
 }
