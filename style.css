@@ -121,3 +121,27 @@ h1 {
 .ol3 {
     color: #CD7F32;
 }
+
+.paragraph4 {
+    border: solid 3px;
+    border-color: yellow;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 450px; 
+    font-family: cursive;
+    background-color: black;
+    padding: 7px;
+}
+
+.paragraph5 {
+    border: solid 3px;
+    border-color: orange;
+    border-radius: 5px;
+    margin-left: 50px; 
+    margin-top: 20px;
+    width: 1000px;
+    font-family: cursive;
+    background-color: black;
+    padding: 7px;
+}
