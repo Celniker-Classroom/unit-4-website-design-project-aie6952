@@ -9,7 +9,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    width: 575px;
+    width: 596px;
 }
 
 .navbar a {
@@ -18,7 +18,7 @@ body {
     padding: 15px;
     display: block;
     text-align: center;
-    font-family: Arial;
+    font-family: cursive;
 }
 
 .navbar a:hover {
@@ -127,21 +127,72 @@ h1 {
     border-color: yellow;
     border-radius: 5px;
     margin-left: 50px;
-    margin-top: 20px;
-    width: 450px; 
+    width: 225px; 
+    height: 450px;
     font-family: cursive;
     background-color: black;
     padding: 7px;
+    display: inline-block;
 }
 
 .paragraph5 {
     border: solid 3px;
     border-color: orange;
     border-radius: 5px;
-    margin-left: 50px; 
+    margin-left: 35px; 
     margin-top: 20px;
-    width: 1000px;
+    width: 720px;
     font-family: cursive;
     background-color: black;
     padding: 7px;
+    display: inline-block;
+}
+
+.togglebutton {
+    background-color: black;
+    border-radius: 3px;
+    border-color: white;
+    height: 50px; 
+    margin-top: 20px;
+    font-family: cursive;
+    color: white;
+}
+
+.togglebutton:hover {
+    background-color: white;
+    color: black;
+}
+
+.magnusimg {
+    border: solid 3px;
+    border-color: orange;
+    border-radius: 5px;
+    width: 675px;
+    height: 450px;
+    display: inline;
+
+    margin-left: 35px;
+
+}
+
+.rankinglist {
+    border: solid 3px;
+    border-color: hotpink;
+    border-radius: 5px;
+    background-color: black;
+    font-family: cursive;
+    padding: 7px;
+    width: 1000px;
+    margin-top: 20px;
+
+}
+
+.rankheader {
+    text-align: center;
+}
+
+.table, th, td {
+    border: 1px solid white;
+    width: 1000px;
+    
 }

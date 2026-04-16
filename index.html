@@ -5,6 +5,26 @@
     <title>All About Chess!</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
+<style>
+body {
+  background-color:#1f1f1f;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+</style>
+
+<script>
+function toggleTheme() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+
   <body>
     
     <nav class="navbar">
@@ -16,6 +36,7 @@
       </ul>
     </nav>
 
+    <button class="togglebutton" onclick="toggleTheme()">Page Theme</button>
     <h1>All About Chess!</h1>
     <p></p><br></br>
     <img class="chessimage" src="chess.png" alt="Image of Chess">
@@ -50,97 +71,94 @@
       <h3>Physical Chess</h3>
       <p>Physical chess is the most traditional way to play the game. Originally, they were made out of expensive materials such as wood, ivory, or other precious materials, but today, you can easily buy a cheap plastic set of chess. Although each set may vary in looks, the rules are always the exact same, and the board will always have the same traits such as the 8x8 grid, 2 colors, and the same pieces, just maybe in a different style.</p>
     </div>
-
+    <img class="magnusimg" src="magnuscarlson.png" alt="Magnus Carlson in an intense chess tournament match">
     <div class="paragraph5">
       <h3>Competitive Chess</h3>
       <p>Although chess is a great casual game for relaxation, competitive chess is on a whole differenet level. It requires high skill and intense, strategic thinking. The opponents are usually very skilled, and the stakes are much higher. Some chess tournaments offer real money prizes and the opportunity to compete at even higher levels, such as internationally. The game is so intense, that players often sweat a lot or even fold under a lot of pressure. Some say it is more stressfull than an actual physical sport!</p>
       <h3>Skill Level</h3>
       <p>In competitive chess, a player's skill is often measured by their rating or ELO score, which is a numerical representation of their skill level. The higher the better, as you gain when you win and lose when you lose. You can see examples of ELO ratings on many online chess websites such as chess.com, where a lot of top players reside, however it is important to note that just because someone doesn't have a high elo rating on online websites such as chess.com shouldn't mean they aren't skilled players. Remember, chess tournaments are often played physically to prevent cheating, such as using an AI bot like Stockfish to calculate the best moves and win, but that doesn't stop insanely determined cheaters who do the craziest things to cheat, such as using morse code vibrations in their shoes.</p>
     </div>
-    <p></p><br></br>
-    <p></p><br></br>
-    <p></p><br></br>  
-    <p></p>
-    <p>Chess is a great casual game that requires some thinking and stratagy, but competitive chess is on a completley different level!</p>
-    <p>Here is a ranking of some of the best chess players!</p>
-    
-<style>
-table, th, td {
-  border: 1px solid white;
-}
-</style>
-</head>
-<body>
 
-<h2>Top 10 Chess Players</h2>
-  <table style="width:100%">
-  <tr>
-    <th>Ranking</th>
-    <th>Full Name</th> 
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Magnus Carlson</td>
-    <td>USA</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Hikaru Nakamura</td>
-    <td>USA</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Fabiano Caruana</td>
-    <td>USA</td>
-  </tr>
+<div class="rankinglist">
+  <h2 class="rankheader">Top 10 Chess Players</h2>
+    <table class="table">
     <tr>
-    <td>4</td>
-    <td>Vincent Keymer</td>
-    <td>Germany</td>
-  </tr>
+      <th>Ranking</th>
+      <th>Full Name</th> 
+      <th>Country</th>
     </tr>
     <tr>
-    <td>5</td>
-    <td>Nodirbek Abdusattorov</td>
-    <td>Uzbekistan</td>
-  </tr>
-    </tr>
+      <td>1</td>
+      <td>Magnus Carlson</td>
+      <td>USA</td>
     </tr>
     <tr>
-    <td>6</td>
-    <td>Alireza Firouzja</td>
-    <td>France</td>
-  </tr>
-  </tr>
-    </tr>
+      <td>2</td>
+      <td>Hikaru Nakamura</td>
+      <td>USA</td>
     </tr>
     <tr>
-    <td>7</td>
-    <td>Wei Yi</td>
-    <td>China</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td>Anish Giri</td>
-    <td>Netherlands</td>
-  </tr>
-    <tr>
-    <td>9</td>
-    <td>Gukesh Dommaraju</td>
-    <td>India</td>
-  </tr>
+      <td>3</td>
+      <td>Fabiano Caruana</td>
+      <td>USA</td>
+    </tr>
+      <tr>
+      <td>4</td>
+      <td>Vincent Keymer</td>
+      <td>Germany</td>
+    </tr>
+      </tr>
+      <tr>
+      <td>5</td>
+      <td>Nodirbek Abdusattorov</td>
+      <td>Uzbekistan</td>
+    </tr>
+      </tr>
+      </tr>
+      <tr>
+      <td>6</td>
+      <td>Alireza Firouzja</td>
+      <td>France</td>
     </tr>
     </tr>
+      </tr>
+      </tr>
+      <tr>
+      <td>7</td>
+      <td>Wei Yi</td>
+      <td>China</td>
+    </tr>
     <tr>
-    <td>10</td>
-    <td>Wesley So</td>
-    <td>USA</td>
-  </tr>
-</table>
+      <td>8</td>
+      <td>Anish Giri</td>
+      <td>Netherlands</td>
+    </tr>
+      <tr>
+      <td>9</td>
+      <td>Gukesh Dommaraju</td>
+      <td>India</td>
+    </tr>
+      </tr>
+      </tr>
+      <tr>
+      <td>10</td>
+      <td>Wesley So</td>
+      <td>USA</td>
+    </tr>
+  </table>
+</div>
 <p>These top 10 players are the best of the best. They are masters of chess, also known as grandmasters.</p>
 <p>However, they are nothing compared to the actual best player of chess...</p>
-<input type="button" onclick="alert('And that player is Stockfish AI!')" value="Click to Reveal...">
+
+<button id="myBtn">Click to Reveal</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
 <p>Now that you have learned more about the background of chess, you can start learning how to play!</p>
 <a href="page2.html">Click here to go to learn how to play chess!</a>
   </body>
