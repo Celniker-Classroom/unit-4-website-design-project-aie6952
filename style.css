@@ -127,6 +127,7 @@ h1 {
     border-color: yellow;
     border-radius: 5px;
     margin-left: 50px;
+    margin-top: 20px;
     width: 225px; 
     height: 450px;
     font-family: cursive;
@@ -195,4 +196,17 @@ h1 {
     border: 1px solid white;
     width: 1000px;
     
+}
+
+.revealbutton {
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    font-family: cursive;
+    width: 100px;
+    height: 50px;
+}
+
+.revealbutton:hover {
+    background-color: rgba(255, 0, 0, 0.863);
 }

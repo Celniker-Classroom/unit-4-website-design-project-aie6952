@@ -13,17 +13,12 @@ body {
 }
 
 .light-mode {
-  background-color: white;
+  background-color: rgb(37, 18, 18);
   color: black;
 }
 </style>
 
-<script>
-function toggleTheme() {
-   var element = document.body;
-   element.classList.toggle("light-mode");
-}
-</script>
+<script src="script.js"></script>
 
   <body>
     
@@ -52,18 +47,24 @@ function toggleTheme() {
       <h2>How Do You Play Chess?</h2>
       <p>So you may be wondering. Even if I know or just learned all the rules of Chess, how exactly do I access the game in order to play it? Well, Chess is usually played physically with a board and physical pieces, however you don't exactly need a physical set of chess to play chess. We have the internet today, which of course, contains online chess. Many websites host chess avaliable for you to play online against other real people or bots, allowing you to practice and hone your skills. You can play competitively against other players from around the world, or play casually with your friends.</p>
     </div>
+
     <p></p>
 
     <a class="chesscom" href="https://chess.com/"><img src="chesscom.png" alt="" style="width:328px;height:328px;"></a>
+
     <div class="paragraph3">
-      <h3>Online Chess</h2>
+      <h3>Online Chess</h3>
+
       <p>There are plenty of websites that host Online chess, however the most popular is <a class="chesslink"href="https://chess.com">chess.com</a> ,which is the top rated chess site, and you can see why. It offers plenty of bots for you to train against, game analysis, competitive multiplayer chess with a HUGE playerbase, more chess minigames, and even forums and chats!</p>
+      
       <p><a class="chesslink"href="https://chess.com">Chess.com</a> is a great online chess website, however it isn't the only one. While others may be slightly the same level, a bit better, or a bit worse, Chess is Chess, and there will be many great alternatives, with our top 3 alternatives being:</p>
+      
       <ol>
         <li class="ol1"><a class="ol1" href="https://lichess.org">lichess.org</a></li>
         <li class="ol2"><a class="ol2" href="https://worldchess.com">FIDE chess</a></li>
         <li class="ol3"><a class="ol3"href="https://duolingo.com">Duolingo chess: Great for learning!</a></li>
       </ol>
+
       <p>But in reality, any chess app on your phone or simple website works, because the game is played the same way, with the same rules. You can even try online chess in this website! We've included an html chess game here.</p>
     </div>
 
@@ -71,7 +72,9 @@ function toggleTheme() {
       <h3>Physical Chess</h3>
       <p>Physical chess is the most traditional way to play the game. Originally, they were made out of expensive materials such as wood, ivory, or other precious materials, but today, you can easily buy a cheap plastic set of chess. Although each set may vary in looks, the rules are always the exact same, and the board will always have the same traits such as the 8x8 grid, 2 colors, and the same pieces, just maybe in a different style.</p>
     </div>
+
     <img class="magnusimg" src="magnuscarlson.png" alt="Magnus Carlson in an intense chess tournament match">
+
     <div class="paragraph5">
       <h3>Competitive Chess</h3>
       <p>Although chess is a great casual game for relaxation, competitive chess is on a whole differenet level. It requires high skill and intense, strategic thinking. The opponents are usually very skilled, and the stakes are much higher. Some chess tournaments offer real money prizes and the opportunity to compete at even higher levels, such as internationally. The game is so intense, that players often sweat a lot or even fold under a lot of pressure. Some say it is more stressfull than an actual physical sport!</p>
@@ -150,7 +153,7 @@ function toggleTheme() {
 <p>These top 10 players are the best of the best. They are masters of chess, also known as grandmasters.</p>
 <p>However, they are nothing compared to the actual best player of chess...</p>
 
-<button id="myBtn">Click to Reveal</button>
+<button class="revealbutton"id="myBtn">Click to Reveal</button>
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
@@ -163,4 +166,3 @@ function toggleTheme() {
 <a href="page2.html">Click here to go to learn how to play chess!</a>
   </body>
 </html>
-
