@@ -13,9 +13,34 @@ body {
 }
 
 .light-mode {
-  background-color: rgb(37, 18, 18);
+  background-color: rgb(255, 255, 255);
   color: black;
 }
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode p,
+.light-mode li
+.light-mode td,
+.light-mode th,
+.light-mode tr,
+.light-mode td {
+  color: rgb(0,0,0) !important;
+}
+
+.light-mode .paragraphs,
+.light-mode .paragraph1,
+.light-mode .paragraph2,
+.light-mode .paragraph3,
+.light-mode .paragraph4,
+.light-mode .paragraph5,
+.light-mode .rankinglist,
+.light-mode .paragraph6,
+.light-mode .table {
+  background-color: #f5f5f5 !important;
+}
+
 </style>
 
 <script src="script.js"></script>
@@ -36,7 +61,7 @@ body {
     <p></p><br></br>
     <img class="chessimage" src="chess.png" alt="Image of Chess">
 
-    <div class="paragraph1">
+    <div class="paragraphs paragraph1">
       <h2>A Brief History of Chess</h2>
       <p>Chess is the world's most popular and recognized games, and  originated around 1500 years ago in India. It quickly become popular, and spread throughout the ancient world. As time went on, the rules changed and the game evolved. The modern chess that we all play today originates from Europe, and is slightly different from the original chess in India. This website will teach you how to play the modern chess we all know of today, as well as hints, tips, and tricks to make you a good player.</p>
     </div>
@@ -68,19 +93,23 @@ body {
       <p>But in reality, any chess app on your phone or simple website works, because the game is played the same way, with the same rules. You can even try online chess in this website! We've included an html chess game here.</p>
     </div>
 
-    <div class="paragraph4">
-      <h3>Physical Chess</h3>
-      <p>Physical chess is the most traditional way to play the game. Originally, they were made out of expensive materials such as wood, ivory, or other precious materials, but today, you can easily buy a cheap plastic set of chess. Although each set may vary in looks, the rules are always the exact same, and the board will always have the same traits such as the 8x8 grid, 2 colors, and the same pieces, just maybe in a different style.</p>
-    </div>
+  <div class="chess-row">
+   <div class="paragraph4">
+     <h3>Physical Chess</h3>
+     <p>Physical chess is the most traditional way to play the game. Originally, they were made out of expensive materials such as wood, ivory, or other precious materials, but today, you can easily buy a cheap plastic set of chess. Although each set may vary in looks, the rules are always the exact same, and the board will always have the same traits such as the 8x8 grid, 2 colors, and the same pieces, just maybe in a different style.</p>
+   </div>
 
-    <img class="magnusimg" src="magnuscarlson.png" alt="Magnus Carlson in an intense chess tournament match">
 
-    <div class="paragraph5">
-      <h3>Competitive Chess</h3>
-      <p>Although chess is a great casual game for relaxation, competitive chess is on a whole differenet level. It requires high skill and intense, strategic thinking. The opponents are usually very skilled, and the stakes are much higher. Some chess tournaments offer real money prizes and the opportunity to compete at even higher levels, such as internationally. The game is so intense, that players often sweat a lot or even fold under a lot of pressure. Some say it is more stressfull than an actual physical sport!</p>
-      <h3>Skill Level</h3>
-      <p>In competitive chess, a player's skill is often measured by their rating or ELO score, which is a numerical representation of their skill level. The higher the better, as you gain when you win and lose when you lose. You can see examples of ELO ratings on many online chess websites such as chess.com, where a lot of top players reside, however it is important to note that just because someone doesn't have a high elo rating on online websites such as chess.com shouldn't mean they aren't skilled players. Remember, chess tournaments are often played physically to prevent cheating, such as using an AI bot like Stockfish to calculate the best moves and win, but that doesn't stop insanely determined cheaters who do the craziest things to cheat, such as using morse code vibrations in their shoes.</p>
-    </div>
+   <img class="magnus" src="magnuscarlson.png" alt="Magnus Carlsen in an intense chess tournament match">
+
+
+   <div class="paragraph5">
+     <h3>Competitive Chess</h3>
+     <p>Although chess is a great casual game for relaxation, competitive chess is on a whole different level. It requires high skill and intense, strategic thinking. The opponents are usually very skilled, and the stakes are much higher. Some chess tournaments offer real money prizes and the opportunity to compete at even higher levels, such as internationally. The game is so intense, that players often sweat a lot or even fold under a lot of pressure. Some say it is more stressful than an actual physical sport!</p>
+     <h3>Skill Level</h3>
+     <p>In competitive chess, a player's skill is often measured by their rating or ELO score, which is a numerical representation of their skill level. The higher the better, as you gain when you win and lose when you lose. You can see examples of ELO ratings on many online chess websites such as chess.com, where a lot of top players reside, however it is important to note that just because someone doesn't have a high elo rating on online websites such as chess.com shouldn't mean they aren't skilled players. Remember, chess tournaments are often played physically to prevent cheating, such as using an AI bot like Stockfish to calculate the best moves and win, but that doesn't stop insanely determined cheaters who do the craziest things to cheat, such as using morse code vibrations in their shoes.</p>
+   </div>
+</div>
 
 <div class="rankinglist">
   <h2 class="rankheader">Top 10 Chess Players</h2>
@@ -93,7 +122,7 @@ body {
     <tr>
       <td>1</td>
       <td>Magnus Carlson</td>
-      <td>USA</td>
+      <td>Norway</td>
     </tr>
     <tr>
       <td>2</td>
@@ -150,19 +179,21 @@ body {
     </tr>
   </table>
 </div>
-<p>These top 10 players are the best of the best. They are masters of chess, also known as grandmasters.</p>
-<p>However, they are nothing compared to the actual best player of chess...</p>
 
-<button class="revealbutton"id="myBtn">Click to Reveal</button>
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
+<div class="paragraph6">
+  <p>These top 10 players are the best of the best. They are masters of chess, also known as grandmasters.</p>
+  <p>However, they are nothing compared to the actual best player of chess...</p>
 
+  <button class="revealbutton"id="myBtn">Click to Reveal</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Which is Stockfish, an AI bot. Practically unbeatable, literally picture perfect moves. Technically not a real human, but still a player. Good luck trying to beat it...</p>
+    </div>
 </div>
 
 <p>Now that you have learned more about the background of chess, you can start learning how to play!</p>
-<a href="page2.html">Click here to go to learn how to play chess!</a>
+<a class="chesslink"href="page2.html">Click here to go to learn how to play chess!</a>
   </body>
 </html>
+</div>

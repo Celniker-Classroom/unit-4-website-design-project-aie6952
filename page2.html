@@ -1,28 +1,107 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <title>How to Play - All About Chess</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body class="page2-body">
 
-<h1>How to Play Standard Chess</h1>
-<p>Chess seems complex at first glance, but its actually pretty simple.</p>
-<p>There are 2 sides in chess. White and Black. White always has the first move, no matter what.</p>
-<p>Chess is a game played on an 8x8 grid, with 16 pieces for each player. Each piece has a different way of moving, and some even have their own unique mechanics. The goal of the game is to checkmate your opponent's king, essentially trapping it on a position where it cannot move anywhere.</p>
-<p>However it is important to understand that checkmate is not the only way to end the game. You can also Stalemate, or tie the game.</p>
-<p>If the players reach an agreement, or simply decide to agree to a draw and stop playing, then the game is ended as a Stalemate.</p>
-<p>If there are not enough pieces on the board to force a checkmate, cases where it is literally impossible to force a checkmate, then the game declared as a Stalemate.</p>
-<p>If a player repeats the same moves 3 times in a row, for example moving a piece back and fourth repeatidly, then the game is also declared as a stalemate.</p>
-<p>If the game has dragged on for 50 consecutive moves where neither a player has moved a pawn or captured a piece, usually where all the pieces are taken, then the game is also declared as a Stalemate.</p>
-<p></p>
-<h2>How to Set up The Board</h2>
-<p>For more information on piece identification and their moves, click here.</p>
-<p>The board is always set up the same every game, and will always remain the same.</p>
-<p>The correct setup involves placing the board so that each player has a white square on their right side.</p>
-<p>The pawns are always put in the 2nd row from the edge, in a wall, essentially forming a wall.</p>
-<p>Then the Rooks go on the bottom left and right corners, below the pawns.</p>
-<p>The two knights are then placed right next to the rooks.</p>
-<p>The bishops are then placed next to the knights, each in a different colored square.</p>
-<p>Then the queen and king are placed in the last 2 remaining slots, with each queen of their color on their corresponding color square. So for example, a white queen will be placed on the inner white square, while the black one is placed on the inner black square.</p>
-<p></p>
-<p>Now that you have learned how to set up the board, you should get to know each piece and how they work and move.</p>
-<a href="page3.html">Click here to go to learn about the pieces!</a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">How to Play</a></li>
+        <li><a href="page3.html">How the pieces work</a></li>
+        <li><a href="page4.html">Mechanics and tips/tricks</a></li>
+    </ul>
+</nav>
+
+
+<button class="togglebutton" onclick="toggleTheme()">Page Theme</button>
+
+
+<div class="content-wrapper">
+    <h1>How to Play Standard Chess</h1>
+    
+    <div class="info-section intro-box">
+        <p>Chess seems complex at first glance, but it's actually pretty simple.</p>
+        <p>There are 2 sides in chess: <strong>White and Black</strong>. White always has the first move, no matter what.</p>
+        <p>Chess is a game played on an 8x8 grid, with 16 pieces for each player. Each piece has a different way of moving, and some even have their own unique mechanics. The goal of the game is to <strong>checkmate</strong> your opponent's king, essentially trapping it on a position where it cannot move anywhere.</p>
+    </div>
+
+
+    <div class="info-section stalemate-box">
+        <h2>Ending the Game: Stalemate</h2>
+        <p>It is important to understand that checkmate is not the only way to end the game. You can also Stalemate, or tie the game:</p>
+        <ul>
+            <li><strong>Agreement:</strong> Players decide to agree to a draw.</li>
+            <li><strong>Insufficient Material:</strong> Cases where it is literally impossible to force a checkmate.</li>
+            <li><strong>Threefold Repetition:</strong> A player repeats the same moves 3 times in a row.</li>
+            <li><strong>50-Move Rule:</strong> 50 consecutive moves occur without a pawn move or a capture.</li>
+        </ul>
+    </div>
+
+
+    <div class="info-section setup-box">
+        <h2>How to Set up The Board</h2>
+        
+        <div class="w3-content" style="max-width:600px; margin-bottom: 20px;">
+            <div class="w3-display-container mySlides">
+                <img src="step1.png" style="width:100%">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">1. Orientation: Each player must have a white square on their right side.</div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="step2.png" style="width:100%">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">2. The Pawns</div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="step3.png" style="width:100%">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">3. The Rooks</div>
+            </div>
+            <div class="w3-display-container mySlides">
+                <img src="step4.png" style="width:100%">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">4. The Knights</div>
+            </div>
+                 <div class="w3-display-container mySlides">
+                <img src="step5.png" style="width:100%">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">5. The Bishops</div>
+            </div>
+             </div>
+                 <div class="w3-display-container mySlides">
+                <img src="step6.png" style="width: 500px; height: 500px;">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">6. The Queen: Must be in her own color.</div>
+            </div>
+                </div>
+                 <div class="w3-display-container mySlides">
+                <img src="step7.png" style="width: 500px; height: 500px;">
+                <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">7. The King: Next to the Queen.</div>
+            </div>
+
+
+
+            <div class="w3-center w3-padding-16">
+                <div class="w3-section">
+                    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+                    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+                </div>
+                <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+                <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+                <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+                <button class="w3-button demo" onclick="currentDiv(4)">4</button>
+                <button class="w3-button demo" onclick="currentDiv(5)">5</button>
+                <button class="w3-button demo" onclick="currentDiv(6)">6</button>
+                <button class="w3-button demo" onclick="currentDiv(7)">7</button>
+            </div>
+        </div>
+
+    <div class="next-page-box">
+        <p>Now that you have learned how to set up the board, you should get to know each piece and how they work.</p>
+        <a class="chesslink" href="page3.html">Click here to learn about the pieces!</a>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>

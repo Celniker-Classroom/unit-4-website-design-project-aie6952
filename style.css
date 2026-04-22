@@ -1,212 +1,296 @@
 body {
-    background-color: #1f1f1f;
-    color: white;
-    font-family: Arial;
+   background-color: #1f1f1f;
+   color: white;
+   font-family: Arial;
 }
+
+
 .navbar ul {
-    list-style-type: none;
-    background-color: lime;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    width: 596px;
+   list-style-type: none;
+   background-color: lime;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+   width: 596px;
 }
+
 
 .navbar a {
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    font-family: cursive;
+   color: black;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+   font-family: cursive;
 }
+
 
 .navbar a:hover {
-    background-color: limegreen;
+   background-color: limegreen;
 }
+
 
 .navbar li {
-    float: left;
+   float: left;
 }
+
 
 h1 {
-    font-family: cursive;
-    font-size: 50px;
-    text-align: center;
-    margin: 10px;
+   font-family: cursive;
+   font-size: 50px;
+   text-align: center;
+   margin: 10px;
 }
+
 
 .chessimage {
-    border: solid 3px;
-    border-color: red;
-    border-radius: 10px;
-    width: 666.9px;
-    height: 444.6px;
-    float: right;
-    margin-right: 100px;
-    
+   border: solid 3px;
+   border-color: red;
+   border-radius: 10px;
+   width: 666.9px;
+   height: 444.6px;
+   float: right;
+   margin-right: 100px;
 }
+
+
 .titles {
-  border: solid 3px;
-  border-color: red;
-  border-radius: 10px;
-  color: white;
-  font-family: cursive;
-  background-color: black;
-  text-align: left;
-  display: inline;
-  padding: 5px;
-  font-size: 35px;
+   border: solid 3px;
+   border-color: red;
+   border-radius: 10px;
+   color: white;
+   font-family: cursive;
+   background-color: black;
+   text-align: left;
+   display: inline;
+   padding: 5px;
+   font-size: 35px;
 }
+
 
 .paragraph1 {
-  border: solid 3px;
-  border-color: red;
-  border-radius: 10px;
-  color: white;
-  font-family: cursive;
-  background-color: black;
-  width: 1000px;
-  display: inline-block;
-  margin-left: 50px;
+   border: solid 3px;
+   border-color: red;
+   border-radius: 10px;
+   color: white;
+   font-family: cursive;
+   background-color: black;
+   width: 1000px;
+   display: inline-block;
+   margin-left: 50px;
 }
+
 
 .paragraph2 {
-  border: solid 3px;
-  border-color: lime;
-  border-radius: 10px;
-  color: white;
-  font-family: cursive;
-  background-color: black;
-  width: 1000px;
-  display: inline-block;
-  margin-left: 50px;
-  margin-top: 0px;
+   border: solid 3px;
+   border-color: lime;
+   border-radius: 10px;
+   color: white;
+   font-family: cursive;
+   background-color: black;
+   width: 1000px;
+   display: inline-block;
+   margin-left: 50px;
+   margin-top: 0px;
 }
+
 
 .paragraph3 {
-  border: solid 3px;
-  border-color: cyan;
-  border-radius: 10px;
-  color: white;
-  font-family: cursive;
-  background-color: black;
-  display: inline-block;
-  margin-left: 35px;
-  width: 1368px;
-  margin-top: 20px;
+   border: solid 3px;
+   border-color: cyan;
+   border-radius: 10px;
+   color: white;
+   font-family: cursive;
+   background-color: black;
+   display: inline-block;
+   margin-left: 35px;
+   width: 1368px;
+   margin-top: 20px;
 }
+
 
 .chesslink {
-    color: cyan;
+   color: cyan;
 }
+
 
 .chesscom {
-    border: solid 3px;
-    border-color: cyan;
-    border-radius: 5px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 20px;
+   border: solid 3px;
+   border-color: cyan;
+   border-radius: 5px;
+   float: left;
+   margin-left: 50px;
+   margin-top: 20px;
 }
+
 
 .ol1 {
-    color: gold;
+   color: gold;
 }
+
 
 .ol2 {
-    color: silver;
+   color: silver;
 }
+
 
 .ol3 {
-    color: #CD7F32;
+   color: #CD7F32;
 }
+
+
+.chess-row {
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   width: 100%;
+}
+
 
 .paragraph4 {
-    border: solid 3px;
-    border-color: yellow;
-    border-radius: 5px;
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 225px; 
-    height: 450px;
-    font-family: cursive;
-    background-color: black;
-    padding: 7px;
-    display: inline-block;
+   border: solid 3px;
+   border-color: yellow;
+   border-radius: 5px;
+   margin-left: 50px;
+   margin-top: 20px;
+   width: 225px;
+   height: 450px;
+   font-family: cursive;
+   background-color: black;
+   flex-shrink: 0;
 }
+
 
 .paragraph5 {
-    border: solid 3px;
-    border-color: orange;
-    border-radius: 5px;
-    margin-left: 35px; 
-    margin-top: 20px;
-    width: 720px;
-    font-family: cursive;
-    background-color: black;
-    padding: 7px;
-    display: inline-block;
+   border: solid 3px;
+   border-color: orange;
+   border-radius: 5px;
+   margin-left: 35px;
+   margin-top: 20px;
+   width: 980px;
+   height: 450px;
+   font-family: cursive;
+   background-color: black;
+   flex-shrink: 1;
 }
+
 
 .togglebutton {
-    background-color: black;
-    border-radius: 3px;
-    border-color: white;
-    height: 50px; 
-    margin-top: 20px;
-    font-family: cursive;
-    color: white;
+   background-color: black;
+   border-radius: 3px;
+   border-color: white;
+   height: 50px;
+   margin-top: 20px;
+   font-family: cursive;
+   color: white;
 }
+
 
 .togglebutton:hover {
-    background-color: white;
-    color: black;
+   background-color: white;
+   color: black;
 }
 
-.magnusimg {
-    border: solid 3px;
-    border-color: orange;
-    border-radius: 5px;
-    width: 675px;
-    height: 450px;
-    display: inline;
 
-    margin-left: 35px;
-
+.magnus {
+   border: solid 3px orange;
+   border-radius: 5px;
+   width: 450px;
+   height: 450px;
+   margin-left: 35px;
+   margin-top: 20px;
+   flex-shrink: 0;
+   object-fit: cover;
 }
+
 
 .rankinglist {
-    border: solid 3px;
-    border-color: hotpink;
-    border-radius: 5px;
-    background-color: black;
-    font-family: cursive;
-    padding: 7px;
-    width: 1000px;
-    margin-top: 20px;
-
+   border: solid 3px;
+   border-color: hotpink;
+   border-radius: 5px;
+   background-color: black;
+   font-family: cursive;
+   padding: 7px;
+   width: 1000px;
+   margin-top: 20px;
+   margin-left: 50px;
+   display: block;
 }
+
 
 .rankheader {
-    text-align: center;
+   text-align: center;
 }
+
 
 .table, th, td {
-    border: 1px solid white;
-    width: 1000px;
-    
+   border: 1px solid white;
+   width: 1000px;
 }
+
 
 .revealbutton {
-    color: white;
-    background-color: red;
-    border-radius: 3px;
-    font-family: cursive;
-    width: 100px;
-    height: 50px;
+   color: white;
+   background-color: red;
+   border-radius: 3px;
+   font-family: cursive;
+   width: 100px;
+   height: 50px;
 }
 
+
 .revealbutton:hover {
-    background-color: rgba(255, 0, 0, 0.863);
+   background-color: rgba(255, 0, 0, 0.863);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+        background-color: rgb(255,255,255,0.4);
+    background-color: rgba(255,255,255,255,0.4);
+    color: black;
+    font-family: cursive;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paragraph6 {
+   border: solid 3px;
+   border-color: purple;
+   border-radius: 10px;
+   color: white;
+   font-family: cursive;
+   background-color: black;
+   display: inline-block;
+   margin-left: 50px;
+   width: 500px;
+   margin-top: 20px;
+   padding: 7px;
 }

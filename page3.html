@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Chess Pieces and How They Move</h1>
-<p>Now that you have learned how to set up the board, you need to know how each piece actually works and moves.</p>
-<p>Each piece has a different way of moving, and some even have their own unique mechanics, which will be explained in the next page.</p>
-<p>Pieces have their worth calculated in points, to better help you understand whether you should trade a piece (sacrificing a piece for another) or to help you understand if you are winning or losing.</p>
-<p></p>
-<h2>The Pawn</h2>
-<p>There are 16 pawns in total. 8 white and 8 black, for each player. Pawns are considered the least powerful piece by itself, and also the least valuable, with a value of 1 point. This is because it can only be moved 1 square up at a time, with the exception of a 2 square move on its first move from its starting position. Howevever, pawns can only use this move twice, and it is not required for it to move 2 spaces up initially, as players can choose to move it up 1 instead. Pawns also can move diagonally up right/left when capturing another piece. Pawns can only capture in this way, and if it meets another piece, then it is essentially stuck, as it cannot move sideways and only up, until another piece comes on its upper diagonal positions.</p>
-<p></p>
-<h2>The Bishop</h2>
-<p>There are 2 bishops per player, each having a bishop located on the white and black squares. The bishop can only move diagonally, up or down, left or right. However it cannot move horizontally or vertically, meaning that a bishop located on the white squares will forever be stuck on white squares only. However this is why you have 2 bishops, one to control the black squares, and one to control the white squares. The bishops are worth 3 points each.</p>
-<p></p>
-<h2>The Knight</h2>
-<p>Each player has 2 knights. Knights move in an L-shape, two squares in one direction and then one square perpendicular to that direction. Knights are worth 3 points each.</p>
-<p></p>
-<h2>The Rook</h2>
-<p>Each player has 2 rooks. Rooks can move horizontally or vertically any number of squares, with the ability to move back and forth as well. However they cannot move diagonally and are limited by other pieces. Rooks are best for endgame, as in the beginning of the game, there are pawns and too many pieces in general blocking the Rook's pathways. The Rook is worth 5 points.</p>
-<p></p>
-<h2>The Queen</h2>
-<p>The queen is the most powerful piece on the board, with the ability to move in any direction, combining the movements of the rook and bishop. However each player only gets 1 queen each, and they cannot be moved in a way like the knights do. The queen is worth 9 points.</p>
-<p></p>
-<h2>The King</h2>
-<p>Each player has 1 king. It is considered the most powerful piece in the board, however can only move one square at a time in any direction. You technically cannot capture/kill the king, but essentially you can check it if the king is in danger from any other piece. (This is done by placing the king in a position where it could be captured by another piece on their next move.) The king is worth infinatly many points, and should be protected at all costs.</p>
-<p>If the king is checked, then the king is forced to move, or if that is not possible, then another piece must be moved in order to protect the king. If neither of those are possible, then you get checkmated and lose.</p>
-<p></p>
-<p>Now that you have learned about the pieces and how they work, you can start learning about the unique mechanics of pieces!</p>
-<a href="page4.html">Click here to go to learn about the unique mechanics of the pieces!</a>
+<head>
+    <title>Pieces - All About Chess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page3-body">
+
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">How to Play</a></li>
+        <li><a href="page3.html">How the pieces work</a></li>
+        <li><a href="page4.html">Mechanics and tips/tricks</a></li>
+    </ul>
+</nav>
+
+
+<button class="togglebutton" onclick="toggleTheme()">Page Theme</button>
+
+
+<div class="content-wrapper">
+    <h1>Chess Pieces and How They Move</h1>
+    
+    <div class="info-section intro-box">
+        <p>Now that you have learned how to set up the board, you need to know how each piece actually works and moves.</p>
+        <p>Pieces have their worth calculated in <strong>points</strong> to help you understand "material advantage"—whether you should trade a piece or if you are currently winning.</p>
+    </div>
+
+
+    <div class="info-section">
+        <h2>The Pawn</h2>
+        <p>Pawns only move one square forward, but on their <strong>very first move</strong>, they have the option to move two squares. They capture diagonally. If a pawn reaches the other side of the board, it can promote to any other piece, including the Queen! Just be aware that not all physical chess sets contain enough pieces for a promotion. Pawns are worth 1 point each.</p>
+        
+        <h2>The Bishop</h2>
+        <p>Bishops move diagonally as many squares as they want. Since they stay on one color, you need both to control the whole board. Bishops are worth 3 points each.</p>
+        
+        <h2>The Knight</h2>
+        <p>Knights are unique because they move in an <strong>"L" shape</strong> and can jump over other pieces! This makes them very tricky in crowded positions. Knights are worth 3 points each.</p>
+        
+        <h2>The Rook</h2>
+        <p>Rooks move horizontally and vertically. They are "heavy" pieces that become very powerful once the board clears up in the endgame. Rooks are worth 5 points each.</p>
+        
+        <h2>The Queen</h2>
+        <p>The Queen combines the power of the Rook and Bishop. She can move in any straight or diagonal direction. She is the most valuable piece on the board, worth 9 points.</p>
+        
+        <h2>The King</h2>
+        <p>The King can only move one square in any direction. The goal of chess is to "Checkmate" the King. He is worth infinite points because if he is lost, the game is over.</p>
+    </div>
+
+
+    <div class="next-page-box">
+        <p>Now that you know more about how all the chess pieces work, it's time to learn about chess mechanics, gameplay, and tips/tricks!</p>
+        <a class="chesslink" href="page4.html">Click here to learn more about chess mechanics!</a>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
 </html>
