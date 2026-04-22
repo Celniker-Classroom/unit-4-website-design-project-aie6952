@@ -2,9 +2,46 @@
 <html>
 <head>
     <title>How to Play - All About Chess</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page2.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 </head>
+
+<style>
+body {
+  background-color:#1f1f1f;
+  color: white;
+}
+
+.light-mode {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode p,
+.light-mode ul,
+.light-mode li,
+.light-mode td,
+.light-mode th,
+.light-mode tr,
+.light-mode td {
+  color: rgb(0,0,0) !important;
+}
+
+.light-mode .paragraph1,
+.light-mode .paragraph2,
+.light-mode .checkmate,
+.light-mode .stalemate,
+.light-mode .setup,
+.light-mode .intro{
+  background-color: #f5f5f5 !important;
+  color: rgb(0,0,0) !important;
+}
+
+</style>
+
 <body class="page2-body">
 
 
@@ -20,22 +57,29 @@
 
 <button class="togglebutton" onclick="toggleTheme()">Page Theme</button>
 
+<h1>How to Play Standard Chess</h1>
 
-<div class="content-wrapper">
-    <h1>How to Play Standard Chess</h1>
+<div class="paragraph1">
     
-    <div class="info-section intro-box">
+    <div class="intro">
         <p>Chess seems complex at first glance, but it's actually pretty simple.</p>
         <p>There are 2 sides in chess: <strong>White and Black</strong>. White always has the first move, no matter what.</p>
         <p>Chess is a game played on an 8x8 grid, with 16 pieces for each player. Each piece has a different way of moving, and some even have their own unique mechanics. The goal of the game is to <strong>checkmate</strong> your opponent's king, essentially trapping it on a position where it cannot move anywhere.</p>
     </div>
 
 
-    <div class="info-section stalemate-box">
+    <div class="checkmate">
+        <h2>Ending the Game: Checkmate</h2>
+        <p>Checkmating is the main way to end the game, and is a simple and straightforward process.</p>
+        <p>To checkmate your opponent, you must trap their king in a position where it cannot move anywhere without stepping into a check. This means no other piece from your opponent can protect or block the king, and that their king has literally no option to move.</p>
+        <p>If all of the conditions have been met, then the game is over and you have won.</p>
+    </div>
+
+    <div class="stalemate">
         <h2>Ending the Game: Stalemate</h2>
-        <p>It is important to understand that checkmate is not the only way to end the game. You can also Stalemate, or tie the game:</p>
+        <p>It is important to understand that checkmate is not the only way to end the game. You can also Stalemate, or tie the game    if:</p>
         <ul>
-            <li><strong>Agreement:</strong> Players decide to agree to a draw.</li>
+            <li><strong>There is an Agreement:</strong> Players decide to agree to a draw.</li>
             <li><strong>Insufficient Material:</strong> Cases where it is literally impossible to force a checkmate.</li>
             <li><strong>Threefold Repetition:</strong> A player repeats the same moves 3 times in a row.</li>
             <li><strong>50-Move Rule:</strong> 50 consecutive moves occur without a pawn move or a capture.</li>
@@ -43,7 +87,7 @@
     </div>
 
 
-    <div class="info-section setup-box">
+    <div class="setup">
         <h2>How to Set up The Board</h2>
         
         <div class="w3-content" style="max-width:600px; margin-bottom: 20px;">
@@ -94,8 +138,8 @@
                 <button class="w3-button demo" onclick="currentDiv(7)">7</button>
             </div>
         </div>
-
-    <div class="next-page-box">
+    <p></p>
+    <div class="paragraph2">
         <p>Now that you have learned how to set up the board, you should get to know each piece and how they work.</p>
         <a class="chesslink" href="page3.html">Click here to learn about the pieces!</a>
     </div>

@@ -2,9 +2,55 @@
 <html>
 <head>
     <title>Pieces - All About Chess</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page3.css">
 </head>
-<body class="page3-body">
+
+<style>
+body {
+  background-color:#1f1f1f;
+  color: white;
+}
+
+.light-mode {
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode p,
+.light-mode ul,
+.light-mode li,
+.light-mode td,
+.light-mode main,
+.light-mode th,
+.light-mode tr,
+.light-mode h4,
+.light-mode td {
+  color: rgb(0,0,0) !important;
+}
+
+.light-mode .paragraph1,
+.light-mode .paragraph2,
+.light-mode .checkmate,
+.light-mode .stalemate,
+.light-mode .setup,
+.light-mode .main,
+.light-mode .pieces,
+.light-mode .end,
+.light-mode .pawn,
+.light-mode .bishop,
+.light-mode .knight,
+.light-mode .rook,
+.light-mode .queen,
+.light-mode .king {
+.light-mode .intro{
+  background-color: white !important;
+  color: rgb(0,0,0) !important;
+}
+
+</style>
 
 
 <nav class="navbar">
@@ -20,37 +66,62 @@
 <button class="togglebutton" onclick="toggleTheme()">Page Theme</button>
 
 
-<div class="content-wrapper">
+<div class="main">
     <h1>Chess Pieces and How They Move</h1>
     
-    <div class="info-section intro-box">
+    <div class="paragraph1">
         <p>Now that you have learned how to set up the board, you need to know how each piece actually works and moves.</p>
+        <h4><strong>IMPORTANT:</strong></h4>
         <p>Pieces have their worth calculated in <strong>points</strong> to help you understand "material advantage"—whether you should trade a piece or if you are currently winning.</p>
     </div>
 
+    <p></p><br></br>
+    <div class="pieces">
+        <div class="pawn">
+            <h2>The Pawn</h2>
+            <p>Pawns only move one square forward, but on their very first move, they have the option to move two squares. They capture diagonally. If a pawn reaches the other side of the board, it can promote to any other piece, including the Queen! Just be aware that not all physical chess sets contain enough pieces for a promotion. Pawns are worth 1 point each.</p>
+        </div>
 
-    <div class="info-section">
-        <h2>The Pawn</h2>
-        <p>Pawns only move one square forward, but on their <strong>very first move</strong>, they have the option to move two squares. They capture diagonally. If a pawn reaches the other side of the board, it can promote to any other piece, including the Queen! Just be aware that not all physical chess sets contain enough pieces for a promotion. Pawns are worth 1 point each.</p>
+        <p></p>
+
+        <div class="bishop">
+            <h2>The Bishop</h2>
+            <p>Bishops move diagonally as many squares as they want. Since they stay on one color, you need both to control the whole board. Bishops are worth 3 points each.</p>
+        </div>
         
-        <h2>The Bishop</h2>
-        <p>Bishops move diagonally as many squares as they want. Since they stay on one color, you need both to control the whole board. Bishops are worth 3 points each.</p>
+        <p></p>
+
+        <div class="knight">
+            <h2>The Knight</h2>
+            <p>Knights are unique because they move in an <strong>"L" shape</strong> and can jump over other pieces! This makes them very tricky in crowded positions. Knights are worth 3 points each.</p>
+        </div>
         
-        <h2>The Knight</h2>
-        <p>Knights are unique because they move in an <strong>"L" shape</strong> and can jump over other pieces! This makes them very tricky in crowded positions. Knights are worth 3 points each.</p>
+        <p></p>
         
-        <h2>The Rook</h2>
-        <p>Rooks move horizontally and vertically. They are "heavy" pieces that become very powerful once the board clears up in the endgame. Rooks are worth 5 points each.</p>
+        <div class="rook">
+            <h2>The Rook</h2>
+            <p>Rooks move horizontally and vertically. They are "heavy" pieces that become very powerful once the board clears up in the endgame. Rooks are worth 5 points each.</p>
+        </div>
         
-        <h2>The Queen</h2>
-        <p>The Queen combines the power of the Rook and Bishop. She can move in any straight or diagonal direction. She is the most valuable piece on the board, worth 9 points.</p>
+        <p></p>
         
-        <h2>The King</h2>
-        <p>The King can only move one square in any direction. The goal of chess is to "Checkmate" the King. He is worth infinite points because if he is lost, the game is over.</p>
+        <div class="queen">
+            <h2>The Queen</h2>
+            <p>The Queen combines the power of the Rook and Bishop. She can move in any straight or diagonal direction. She is the most valuable piece on the board, worth 9 points.</p>
+        </div>
+        
+        <p></p>
+        
+        <div class="king">
+            <h2>The King</h2>
+            <p>The King can only move one square in any direction. The goal of chess is to "Checkmate" the King. He is worth infinite points because if he is lost, the game is over.</p>
+        </div>
     </div>
+        
+        <p></p><br></br>
+        
 
-
-    <div class="next-page-box">
+    <div class="end">
         <p>Now that you know more about how all the chess pieces work, it's time to learn about chess mechanics, gameplay, and tips/tricks!</p>
         <a class="chesslink" href="page4.html">Click here to learn more about chess mechanics!</a>
     </div>
